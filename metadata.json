@@ -1,0 +1,6 @@
+{
+  "name": "TARO AI Shelf Studio",
+  "description": "Premium solid Paulownia wood floating shelf visualization platform with intelligent room mapping and interactive arrangement configurator.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
