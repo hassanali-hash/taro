@@ -1,22 +1,30 @@
-import { 
-  ShelfFinish, 
-  ArrangementStyle, 
-  FinishInfo, 
-  RoomPreset, 
-  StoredCreation, 
-  CustomerLead, 
-  AccessCode 
+import heroScandiShelves from '../assets/images/hero_scandi_shelves_1791878366990.jpg';
+import honeyOakGallery from '../assets/images/honey_oak_gallery_1791878367212.jpg';
+import honeyOakStaggered from '../assets/images/honey_oak_staggered_1791878368285.jpg';
+import honeyOakVertical from '../assets/images/honey_oak_vertical_1791878415665.jpg';
+import roomEmptyLimewash from '../assets/images/room_empty_limewash_1791878415794.jpg';
+import wengeAsymmetric from '../assets/images/wenge_asymmetric_1791878368542.jpg';
+import wengeGalleryDining from '../assets/images/wenge_gallery_dining_1791878416614.jpg';
+import wengeSymmetrical from '../assets/images/wenge_symmetrical_1791878368959.jpg';
+import {
+  ShelfFinish,
+  ArrangementStyle,
+  FinishInfo,
+  RoomPreset,
+  StoredCreation,
+  CustomerLead,
+  AccessCode,
 } from '../types';
 
 export const ASSET_IMAGES = {
-  hero: '/src/assets/images/hero_scandi_shelves_1791878366990.jpg',
-  honeyOakStaggered: '/src/assets/images/honey_oak_staggered_1791878368285.jpg',
-  honeyOakGallery: '/src/assets/images/honey_oak_gallery_1791878367212.jpg',
-  honeyOakVertical: '/src/assets/images/honey_oak_vertical_1791878415665.jpg',
-  wengeAsymmetric: '/src/assets/images/wenge_asymmetric_1791878368542.jpg',
-  wengeSymmetrical: '/src/assets/images/wenge_symmetrical_1791878368959.jpg',
-  wengeGalleryDining: '/src/assets/images/wenge_gallery_dining_1791878416614.jpg',
-  emptyRoom: '/src/assets/images/room_empty_limewash_1791878415794.jpg',
+  hero: heroScandiShelves,
+  honeyOakStaggered,
+  honeyOakGallery,
+  honeyOakVertical,
+  wengeAsymmetric,
+  wengeSymmetrical,
+  wengeGalleryDining,
+  emptyRoom: roomEmptyLimewash,
 };
 
 export const FINISH_DETAILS: Record<ShelfFinish, FinishInfo> = {
